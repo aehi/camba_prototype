@@ -1,6 +1,6 @@
 
 header .top { display:flex; justify-content: space-between; align-items: center; margin:1.2rem 0 1rem;}
-header .btn-local { line-height: 2.2rem; font-size: 1.6rem; font-weight: 500;}
+header .btn-local { line-height: 2.2rem; font-size: 1.6rem; font-weight: 600;}
 header .btn-local:before { content: ""; display: inline-block; width:2rem; height:2rem; margin-right: .3rem; background: url(../image/ico_pinFilled.svg) no-repeat center / 1.375rem auto; vertical-align: -.5rem;}
 header .ico-alram { display:block; width:2.4rem; height:2.4rem; background: url(../image/ico_bell2.svg) no-repeat center / 1.98rem auto;}
 
@@ -10,7 +10,7 @@ header .ico-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 .tab ul { display: flex; height:3.6rem; }
 .tab li { flex:1; }
 .tab li a { display:block; line-height:3.6rem; font-size:1.4rem;  text-align: center; box-sizing: border-box; color: #9E9E9E; }
-.tab li.active a { font-weight:500; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
+.tab li.active a { font-weight:600; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
 .content-body {position:relative;}
@@ -63,7 +63,7 @@ section > ul > li:last-child a {border: none;}
 .community-list > li:nth-child(6) .img-area li:nth-child(3) { background-image: url(../image/@thumb_con09.png); margin-top:.3rem; border-radius: 0 0 0 .6rem;}
 .community-list > li:nth-child(6) .img-area li:nth-child(4) { position:relative; background-image: url(../image/@thumb_con10.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 
-.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 500; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 100;}
+.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 600; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 100;}
 
 
 /* 판매해요 */
@@ -74,7 +74,7 @@ section > ul > li:last-child a {border: none;}
 .selling-list figure img {width: 100%; border-radius: .6rem;}
 .selling-list figcaption {width:calc(100% - 11.5rem); margin-left: 1.5rem;}
 .selling-list figcaption h3 {margin-bottom: .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 400;}
-.selling-list figcaption strong { line-height: 2.2rem; font-size: 1.6rem; font-weight: 500;}
+.selling-list figcaption strong { line-height: 2.2rem; font-size: 1.6rem;}
 .selling-list figcaption .right {}
 .selling-list figcaption .date { position:absolute; right:1.6rem; bottom:1.5rem; line-height: 1.7rem; font-size: 1.2rem; color: #757575;}
 
@@ -83,7 +83,7 @@ section > ul > li:last-child a {border: none;}
 #tabContent03 {}
 .help-list > li {position: relative;}
 .help-list > li a {display:block; padding: 1.5rem 0; border-bottom: 1px solid #EDEDED;}
-.help-list h3 {line-height:2.1rem;  font-size: 1.5rem; font-weight: 500;}
+.help-list h3 {line-height:2.1rem;  font-size: 1.5rem;}
 .help-list .info { margin:.8rem 0 .6rem; padding:1rem 1rem; background-color: #F5F5F5; border-radius: .5rem; border: 1px solid #EDEDED;}
 .help-list .info span {line-height: 2rem; font-size: 1.4rem;}
 .help-list .info .now {color:#E72D2D;}
@@ -91,7 +91,7 @@ section > ul > li:last-child a {border: none;}
 .help-list .info .time:before {background-image: url(../image/ico_hourglass.svg);}
 .help-list .info > div {display: flex; justify-content: space-between; align-items: center;}
 .help-list .info .time {margin-top:1.1rem;}
-.help-list .info .price { line-height: 2.2rem; font-size: 1.6rem; font-weight: 500;}
+.help-list .info .price { line-height: 2.2rem; font-size: 1.6rem; font-weight: 600;}
 .help-list .date { float:right; line-height: 1.7rem; font-size: 1.2rem; color: #757575;}
 
 
