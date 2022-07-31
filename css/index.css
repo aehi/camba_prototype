@@ -20,7 +20,7 @@ section > ul > li:last-child a {border: none;}
 /* 커뮤니티 */
 
 #tabContent01 {background-color:#F5F5F5;}
-.community-list > li {padding: 1.5rem 1.6rem; margin-bottom: .8rem; background-color:#FFF;}
+.community-list > li {padding: 1.5rem 1.6rem; margin-bottom: .5rem; background-color:#FFF;}
 .profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
 .profile .right {float:left;}
 .profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; }
@@ -31,8 +31,8 @@ section > ul > li:last-child a {border: none;}
     -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical; 
 }
-.content .img-area {height: 18rem;}
-.content .img-area li { float:left; display:inline-block; width:100%; height: 18rem; border-radius: .6rem; background: url(../image/@thumb_con01.png) no-repeat center / cover;}
+.content .img-area {height: 22rem;}
+.content .img-area li { float:left; display:inline-block; width:100%; height: 22rem; border-radius: .6rem; background: url(../image/@thumb_con01.png) no-repeat center / cover;}
 .content .tag { margin:1rem 0;}
 .content .tag i {margin-right: .8rem; line-height: 1.7rem; font-size: 1.2rem;}
 .foot .like { margin-right: 2rem; line-height: 1.8rem; font-size: 1.3rem;  color:#424242; background-color: transparent;}
@@ -45,31 +45,31 @@ section > ul > li:last-child a {border: none;}
 
 /* 커뮤니티 list 02 ~ */
 .community-list > li:nth-child(2) .user-thumb {background-image: url(../image/@thumb_user02.png);}
-.community-list > li:nth-child(2) .img-area li { width:calc(50% - .4rem); background-image: url(../image/@thumb_con02.png); border-radius: .6rem 0 0 .6rem;}
-.community-list > li:nth-child(2) .img-area li:nth-child(2) { background-image: url(../image/@thumb_con03.png); border-radius: 0 .6rem .6rem 0; margin-left:.8rem;}
+.community-list > li:nth-child(2) .img-area li { width:calc(50% - .15rem); background-image: url(../image/@thumb_con02.png); border-radius: .6rem 0 0 .6rem;}
+.community-list > li:nth-child(2) .img-area li:nth-child(2) { background-image: url(../image/@thumb_con03.png); border-radius: 0 .6rem .6rem 0; margin-left:.3rem;}
 
 .community-list > li:nth-child(3) .user-thumb {background-image: url(../image/@thumb_user03.png);}
 
 .community-list > li:nth-child(4) .user-thumb {background-image: url(../image/@thumb_user04.png);}
-.community-list > li:nth-child(4) .img-area li { width:calc(50% - .4rem); background-image: url(../image/@thumb_con04.png); border-radius: .6rem 0 0 .6rem;}
-.community-list > li:nth-child(4) .img-area li:nth-child(2) { height:8.6rem; background-image: url(../image/@thumb_con05.png); border-radius: 0 .6rem 0 0; margin-left:.8rem;}
-.community-list > li:nth-child(4) .img-area li:nth-child(3) { height:8.6rem;  background-image: url(../image/@thumb_con06.png); margin-left:.8rem; margin-top:.8rem; border-radius: 0 0 .6rem 0;}
+.community-list > li:nth-child(4) .img-area li { width:calc(50% - .15rem); background-image: url(../image/@thumb_con04.png); border-radius: .6rem 0 0 .6rem;}
+.community-list > li:nth-child(4) .img-area li:nth-child(2) { height:10.85rem; background-image: url(../image/@thumb_con05.png); border-radius: 0 .6rem 0 0; margin-left:.3rem;}
+.community-list > li:nth-child(4) .img-area li:nth-child(3) { height:10.85rem;  background-image: url(../image/@thumb_con06.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 
 .community-list > li:nth-child(5) .user-thumb {background-image: url(../image/@thumb_user05.png);}
 
 .community-list > li:nth-child(6) .user-thumb {background-image: url(../image/@thumb_user06.png);}
-.community-list > li:nth-child(6) .img-area li { width:calc(50% - .4rem); height:8.6rem; background-image: url(../image/@thumb_con07.png); border-radius: .6rem 0 0 0;}
-.community-list > li:nth-child(6) .img-area li:nth-child(2) { background-image: url(../image/@thumb_con08.png); border-radius: 0 .6rem 0 0; margin-left:.8rem;}
-.community-list > li:nth-child(6) .img-area li:nth-child(3) { background-image: url(../image/@thumb_con09.png); margin-top:.8rem; border-radius: 0 0 0 .6rem;}
-.community-list > li:nth-child(6) .img-area li:nth-child(4) { position:relative; background-image: url(../image/@thumb_con10.png); margin-left:.8rem; margin-top:.8rem; border-radius: 0 0 .6rem 0;}
+.community-list > li:nth-child(6) .img-area li { width:calc(50% - .15rem); height:10.85rem; background-image: url(../image/@thumb_con07.png); border-radius: .6rem 0 0 0;}
+.community-list > li:nth-child(6) .img-area li:nth-child(2) { background-image: url(../image/@thumb_con08.png); border-radius: 0 .6rem 0 0; margin-left:.3rem;}
+.community-list > li:nth-child(6) .img-area li:nth-child(3) { background-image: url(../image/@thumb_con09.png); margin-top:.3rem; border-radius: 0 0 0 .6rem;}
+.community-list > li:nth-child(6) .img-area li:nth-child(4) { position:relative; background-image: url(../image/@thumb_con10.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 
-.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:8.6rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 500; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 100;}
+.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 500; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 100;}
 
 
 /* 판매해요 */
 #tabContent02 {}
 .selling-list > li {position: relative;}
-.selling-list > li a {display:flex; padding: 1.5rem 0; border-bottom: 1px solid #E0E0E0;}
+.selling-list > li a {display:flex; padding: 1.5rem 0; border-bottom: 1px solid #EDEDED;}
 .selling-list figure { width: 10rem; height: 10rem;}
 .selling-list figure img {width: 100%; border-radius: .6rem;}
 .selling-list figcaption {width:calc(100% - 11.5rem); margin-left: 1.5rem;}
