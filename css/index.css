@@ -63,7 +63,7 @@ section > ul > li:last-child a {border: none;}
 .community-list > li:nth-child(6) .img-area li:nth-child(3) { background-image: url(../image/@thumb_con09.png); margin-top:.3rem; border-radius: 0 0 0 .6rem;}
 .community-list > li:nth-child(6) .img-area li:nth-child(4) { position:relative; background-image: url(../image/@thumb_con10.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 
-.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 600; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 100;}
+.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 600; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 50;}
 
 
 /* 판매해요 */
@@ -108,7 +108,7 @@ section > ul > li:last-child a {border: none;}
 
 
 /* 하단 메뉴 */
-.quick { position: fixed; left:0; right:0; bottom: 0; height: 6rem; background-color: #fff; border-top: .5px solid #C2C2C2; box-sizing: border-box; z-index: 130;}
+.quick { position: fixed; left:0; right:0; bottom: 0; height: 6rem; background-color: #fff; border-top: .5px solid #C2C2C2; box-sizing: border-box; z-index: 100;}
 .quick ul { display: flex; padding:1rem 0.05rem;}
 .quick li { flex:1; padding:0 3.25rem;}
 .quick li a { display:block; line-height: 1.4rem; font-size: 1rem; color:#9E9E9E; text-align: center;}
