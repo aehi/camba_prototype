@@ -61,5 +61,8 @@ header {position: relative; height:5.2rem;}
 .comment-textarea .btn-done {width:2.4rem; height: 2.4rem;}
 .comment-textarea .btn-done svg {vertical-align: -.3rem;}
 .comment-textarea .text-input {margin:0 1rem; width:100%;}
-.comment-textarea .text-input input {width:100%; padding:.8rem 0 .8rem 1.1rem; background-color: #F5F5F5; line-height: 2rem; font-size: 1.4rem;  color:#C2C2C2; border-radius: 2rem; box-sizing: border-box;}
+.comment-textarea .text-input input {width:100%; padding:.8rem 0 .8rem 1.1rem; background-color: #F5F5F5; line-height: 2rem; font-size: 1.4rem;  border-radius: 2rem; box-sizing: border-box;}
+.comment-textarea .text-input input::placeholder {
+    color:#C2C2C2; 
+}
 
