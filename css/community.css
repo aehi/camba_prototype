@@ -6,7 +6,7 @@ header {position: relative; height:5.2rem;}
 .cm-post {padding:1rem 1.6rem; background-color:#FFF;}
 .profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
 .profile .right {float:left;}
-.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; }
+.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .date,
 .profile .place {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
 .profile .place:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem; border-radius: 100%; background-color: #757575;} 

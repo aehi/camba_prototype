@@ -23,7 +23,7 @@ section > ul > li:last-child a {border: none;}
 .community-list > li {padding: 1.5rem 1.6rem; margin-bottom: .5rem; background-color:#FFF;}
 .profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
 .profile .right {float:left;}
-.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; }
+.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .date {display: block; line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
 .content .txt-area {margin:1rem 0;
     overflow: hidden;
