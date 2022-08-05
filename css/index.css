@@ -37,7 +37,7 @@ section > ul > li:last-child a {border: none;}
 .content .tag i {margin-right: .8rem; line-height: 1.7rem; font-size: 1.2rem;}
 .foot .like { margin-right: 2rem; line-height: 1.8rem; font-size: 1.3rem;  color:#424242; background-color: transparent;}
 .foot .comment { line-height: 1.8rem; font-size: 1.3rem; color:#424242;}
-.foot .like:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_like.svg) no-repeat center / 1.667rem auto; vertical-align: -.6rem; }
+.foot .like:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_like.svg) no-repeat center / 1.667rem auto; vertical-align: -.5rem; }
 .foot .comment:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_comment.svg) no-repeat center / 1.667rem auto; vertical-align: -.6rem; }
 .foot .like.on:before {background-image: url(../image/ico_likeFilled.svg);}
 
@@ -96,12 +96,12 @@ section > ul > li:last-child a {border: none;}
 
 /* 글쓰기 버튼 */
 .btn-floating-menu {position: fixed; left:50%; bottom:7.5rem; transform:translateX(-50%); padding: 0 1rem 0 1.5rem; background-color: #0A3CD2; line-height:4rem; font-weight: 500; color: #FFF; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.18); border-radius: 20px; z-index: 110;}
-.btn-floating-menu:after {display: inline-block; content: ""; width:2rem; height: 2rem; margin-left:.3rem; background: url(../image/ico-pencil.svg) no-repeat center/1.384rem auto; vertical-align: -.5rem;}
+.btn-floating-menu:after {display: inline-block; content: ""; width:2rem; height: 2rem; margin-left:.3rem; background: url(../image/ico_pencil.svg) no-repeat center/1.384rem auto; vertical-align: -.5rem;}
 
 .floating-menu {display:none; position: fixed; right:0; left: 0px; top: 0px; bottom:0; background: rgba(0, 0, 0, 0.4); z-index:120;}
 .floating-menu-inner {position: absolute; left:50%; bottom:0; width:calc(100% - 2.2rem); transform: translateX(-50%); text-align: center;}
 .floating-menu-inner ul {background-color: #FFF; border-radius: .8rem;}
-.floating-menu-inner li {padding:1.4rem 0; margin:0 1.4rem; border-bottom: 1px solid #EDEDED;}
+.floating-menu-inner li {padding:1.4rem 0; margin:0 1.4rem; border-bottom: 1px solid #E0E0E0;}
 .floating-menu-inner li:last-child {border:none;}
 .floating-menu-inner > button {display:block; width:100%; margin: .5rem 0 1rem; padding:1.4rem 0;background-color: #FFF; border-radius: .8rem; }
 
