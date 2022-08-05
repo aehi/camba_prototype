@@ -1,0 +1,65 @@
+header {position: relative; height:5.2rem;}
+.header-gnb {position:fixed; top:0; left:0; right:0; display:flex; justify-content: space-between; padding: 1.4rem 1.4rem 1.4rem 1.6rem; background-color: #FFF;}
+.header-gnb button {width: 2.4rem; height:2.4rem; background: url(../image/ico_back.svg) no-repeat center / 2rem auto ; }
+.header-gnb .btn-more {background-image: url(../image/ico_more.svg); background-size: auto 1.5rem;}
+
+.cm-post {padding:1rem 1.6rem; background-color:#FFF;}
+.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
+.profile .right {float:left;}
+.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; }
+.profile .date,
+.profile .place {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
+.profile .place:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem; border-radius: 100%; background-color: #757575;} 
+
+.content .txt-area {margin-top:1rem;}
+.content .img-area {height: 22rem; margin-top:1rem;}
+.content .img-area li { float:left; display:inline-block; width:100%; height: 22rem; border-radius: .6rem; background: url(../image/@thumb_con01.png) no-repeat center / cover;}
+.content .tag { margin:1rem 0;}
+.content .tag i {margin-right: .8rem; line-height: 1.7rem; font-size: 1.2rem;}
+.cm-post .foot .like { margin-right: 2rem; line-height: 1.8rem; font-size: 1.3rem;  color:#424242;}
+.cm-post .foot .comment { line-height: 1.8rem; font-size: 1.3rem; color:#424242;}
+.cm-post .foot .like:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_like.svg) no-repeat center / 1.667rem auto; vertical-align: -.5rem; }
+.cm-post .foot .comment:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_comment.svg) no-repeat center / 1.667rem auto; vertical-align: -.6rem; }
+.cm-post .foot .like.on:before {background-image: url(../image/ico_likeFilled.s.cm-post vg);}
+
+/* comment */
+.comment-wrap {padding:0 1.6rem; }
+.comment-list {padding-top:1.5rem; border-top: 1px solid #E0E0E0;}
+.comment-list li {margin-top: 2rem;}
+.comment-list li:first-child {margin-top:0;}
+.comment-list .profile .user-thumb {background-image: url(../image/@thumb_user02.png);}
+.comment-list .btn-more {float:right; width: 2rem; height:2rem; margin-right:-.2rem; background: url(../image/ico_more.svg) no-repeat center / auto 1.188rem; }
+
+.comment-list .content {padding-left: 4.5rem;}
+.comment-list .content .txt-area {line-height: 2.1rem; font-size: 1.5rem;}
+.comment-list .content .img-area {height: 13rem; margin-top: .5rem; }
+.comment-list .content .img-area li {height: 13rem; background-image:url(../image/@thumb_cm01.png);}
+
+.comment-list .foot {margin-top:1rem; padding-left: 4.5rem; }
+.comment-list .foot .like {display:inline-block margin-right:1rem; line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
+.comment-list .foot .comment {line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
+
+.comment-list > li:last-child {margin-bottom: 11.2rem;}
+
+
+/* comment list 02 ~ */
+.comment-list li.reply {margin-top: 1.5rem; padding-left: 4.5rem;}
+.comment-list li.reply .content {padding-left: 4.5rem;}
+.comment-list li.reply .user-thumb { width:2.8rem; height:2.8rem;}
+.comment-list li:nth-child(2) .user-thumb {background-image: url(../image/@thumb_user07.png);}
+
+.comment-list li:nth-child(3) .user-thumb {background-image: url(../image/@thumb_user03.png);}
+.comment-list li:nth-child(4) .user-thumb, 
+.comment-list li:nth-child(5) .user-thumb 
+{background-image: url(../image/@thumb_user04.png);}
+
+
+/* comment-bar */
+.comment-bar {position:fixed; left:0; right:0; bottom:0; padding:.9rem 1.6rem 1rem; text-align:center; background-color: #FFF; border-top: 1px solid #E0E0E0;}
+.comment-textarea {display:flex; justify-content: space-between; align-items: center;}
+.comment-textarea .btn-file {display:inline-block; width: 2.4rem; height:2.4rem; background: url(../image/ico_file.svg) no-repeat center / 1.9rem auto ; }
+.comment-textarea .btn-done {width:2.4rem; height: 2.4rem;}
+.comment-textarea .btn-done svg {vertical-align: -.3rem;}
+.comment-textarea .text-input {margin:0 1rem; width:100%;}
+.comment-textarea .text-input input {width:100%; padding:.8rem 0 .8rem 1.1rem; background-color: #F5F5F5; line-height: 2rem; font-size: 1.4rem;  color:#C2C2C2; border-radius: 2rem; box-sizing: border-box;}
+
