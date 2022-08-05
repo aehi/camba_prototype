@@ -1,5 +1,7 @@
 header {position: relative; height:5.2rem;}
 .header-gnb {position:fixed; top:0; left:0; right:0; display:flex; justify-content: space-between; padding: 1.4rem 1.4rem 1.4rem 1.6rem; background-color: #FFF;}
+.header-gnb.fixed {border-bottom: 1px solid #E0E0E0;}
+
 .header-gnb button {width: 2.4rem; height:2.4rem; background: url(../image/ico_back.svg) no-repeat center / 2rem auto ; }
 .header-gnb .btn-more {background-image: url(../image/ico_more.svg); background-size: auto 1.5rem;}
 
@@ -11,7 +13,7 @@ header {position: relative; height:5.2rem;}
 .profile .place {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
 .profile .place:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem; border-radius: 100%; background-color: #757575;} 
 
-.content .txt-area {margin-top:1rem;}
+.content .txt-area {margin-top:1rem; font-size: 1.5rem; line-height:2.1rem;}
 .content .img-area {height: 22rem; margin-top:1rem;}
 .content .img-area li { float:left; display:inline-block; width:100%; height: 22rem; border-radius: .6rem; background: url(../image/@thumb_con01.png) no-repeat center / cover;}
 .content .tag { margin:1rem 0;}
@@ -20,7 +22,7 @@ header {position: relative; height:5.2rem;}
 .cm-post .foot .comment { line-height: 1.8rem; font-size: 1.3rem; color:#424242;}
 .cm-post .foot .like:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_like.svg) no-repeat center / 1.667rem auto; vertical-align: -.5rem; }
 .cm-post .foot .comment:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_comment.svg) no-repeat center / 1.667rem auto; vertical-align: -.6rem; }
-.cm-post .foot .like.on:before {background-image: url(../image/ico_likeFilled.s.cm-post vg);}
+.cm-post .foot .like.on:before {background-image: url(../image/ico_likeFilled.svg);}
 
 /* comment */
 .comment-wrap {padding:0 1.6rem; }
@@ -60,9 +62,8 @@ header {position: relative; height:5.2rem;}
 .comment-textarea .btn-file {display:inline-block; width: 2.4rem; height:2.4rem; background: url(../image/ico_file.svg) no-repeat center / 1.9rem auto ; }
 .comment-textarea .btn-done {width:2.4rem; height: 2.4rem;}
 .comment-textarea .btn-done svg {vertical-align: -.3rem;}
+.comment-textarea .btn-done path {fill:#9E9E9E;}
 .comment-textarea .text-input {margin:0 1rem; width:100%;}
 .comment-textarea .text-input input {width:100%; padding:.8rem 0 .8rem 1.1rem; background-color: #F5F5F5; line-height: 2rem; font-size: 1.4rem;  border-radius: 2rem; box-sizing: border-box;}
-.comment-textarea .text-input input::placeholder {
-    color:#C2C2C2; 
-}
+.comment-textarea .text-input input::placeholder {color:#C2C2C2;}
 
