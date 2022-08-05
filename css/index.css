@@ -6,10 +6,10 @@ header .ico-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 
 
 /* tab */
-.tab { padding: 0 1.6rem; border-bottom: 1px solid #EDEDED;}
+.tab { padding: 0 1.6rem; border-bottom: 1px solid #E0E0E0;}
 .tab ul { display: flex; height:3.6rem; }
 .tab li { flex:1; }
-.tab li a { display:block; line-height:3.6rem; font-size:1.4rem;  text-align: center; box-sizing: border-box; color: #9E9E9E; }
+.tab li a { display:block; line-height:3.5rem; font-size:1.4rem; text-align: center; box-sizing: border-box; color: #9E9E9E; }
 .tab li.active a { font-weight:600; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
