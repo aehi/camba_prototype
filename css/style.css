@@ -3,7 +3,7 @@ html { font-size: 10px;}
 body { overflow-x:hidden; font-size: 1rem; }
 body.hidden { position: fixed; overflow-y:hidden;  touch-action: none;}
 main { font-size: 1.5rem; line-height:2.1rem; color:#1F1F1F; display: block;}
-a, button { font-size: 1.5rem; line-height:2.1rem; color:#1F1F1F;}
+a, button { font-family: 'Spoqa Han Sans Neo'; font-size: 1.5rem; line-height:2.1rem; color:#1F1F1F; background-color: transparent;}
 /*p, li{word-break: keep-all;}*/
 
 .clear {clear:both;}
