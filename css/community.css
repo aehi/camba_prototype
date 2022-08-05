@@ -36,7 +36,7 @@ header {position: relative; height:5.2rem;}
 .comment-list .content .img-area li {height: 13rem; background-image:url(../image/@thumb_cm01.png);}
 
 .comment-list .foot {margin-top:1rem; padding-left: 4.5rem; }
-.comment-list .foot .like {display:inline-block margin-right:1rem; line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
+.comment-list .foot .like {display:inline-block; margin-right:1rem; line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
 .comment-list .foot .comment {line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
 
 .comment-list > li:last-child {margin-bottom: 11.2rem;}
