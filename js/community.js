@@ -15,15 +15,19 @@ $(function(){
 
      /* 커뮤니티 좋아요하기 */
     $('.like').click(function(){
+        var txt = $(this).text()
+
         $(this).toggleClass('on');
+        
     });
 
+    /* 댓글아이콘 클릭시 input 활성화 */
     $('.comment').click(function(){
         $('.text-input input').focus();
         return false;
     });
 
-    /* 내용 입력시 활성화 */
+    /* 내용 입력시 등록 버튼활성화 */
 
     $('.text-input input').keyup(function(){
 

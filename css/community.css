@@ -39,7 +39,10 @@ header {position: relative; height:5.2rem;}
 
 .comment-list .foot {margin-top:1rem; padding-left: 4.5rem; }
 .comment-list .foot .like {display:inline-block; margin-right:1rem; line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
+.comment-list .foot .like span {display: none;}
 .comment-list .foot .comment {line-height: 1.7rem; font-size: 1.2rem; font-weight: 500; color:#757575;}
+.comment-list .foot .like.on {color:#0A3CD2;}
+.comment-list .foot .like.on span {display: inline-block;}
 
 .comment-list > li:last-child {margin-bottom: 11.2rem;}
 
