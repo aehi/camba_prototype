@@ -25,4 +25,12 @@ $(function(){
     $('.floating-menu .btn-close').click(function(){
         $(this).parents('.floating-menu').hide();
     });
+
+    /* 하단메뉴 */
+    var quick = $('.quick li a')
+    quick.click(function(){
+        quick.parent().removeClass('on');
+        $(this).parent().addClass('on');
+    });
+   
 });

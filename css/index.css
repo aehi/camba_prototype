@@ -108,13 +108,16 @@ section > ul > li:last-child a {border: none;}
 
 /* 하단 메뉴 */
 .quick { position: fixed; left:0; right:0; bottom: 0; height: 6rem; background-color: #fff; border-top: .5px solid #C2C2C2; box-sizing: border-box; z-index: 100;}
-.quick ul { display: flex; padding:1rem 0.05rem;}
+.quick ul { display: flex; padding:1.2rem 0.05rem; height: 6rem;}
 .quick li { flex:1; padding:0 3.25rem;}
 .quick li a { display:block; line-height: 1.4rem; font-size: 1rem; color:#9E9E9E; text-align: center;}
-.quick li a:before { content: ""; display: block; margin: 0 auto .2rem; width:2.4rem; height:2.4rem; background: url(../image/ico_home.svg) no-repeat center top / auto 1.95rem;}
-.quick li:nth-child(2) a:before {background-image: url(../image/ico_search.svg);}
-.quick li:nth-child(3) a:before {background-image: url(../image/ico_chat.svg);}
-.quick li:nth-child(4) a:before {background-image: url(../image/ico_person.svg);}
+.quick li a:before { content: ""; display: block; margin: 0 auto .2rem; width:2.4rem; height:2.4rem; background: url(../image/ico_quick1.svg) no-repeat center top / auto 1.95rem;}
+.quick li:nth-child(2) a:before {background-image: url(../image/ico_quick2.svg);}
+.quick li:nth-child(3) a:before {background-image: url(../image/ico_quick3.svg);}
+.quick li:nth-child(4) a:before {background-image: url(../image/ico_quick4.svg);}
 
 .quick li.on a { color:#1F1F1F;}
-.quick li.on a:before {background-image: url(../image/ico_home_on.svg);}
+.quick li.on a:before {background-image: url(../image/ico_quick1_on.svg);}
+.quick li.on:nth-child(2) a:before {background-image: url(../image/ico_quick2_on.svg);}
+.quick li.on:nth-child(3) a:before {background-image: url(../image/ico_quick3_on.svg);}
+.quick li.on:nth-child(4) a:before {background-image: url(../image/ico_quick4_on.svg);}
