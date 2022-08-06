@@ -16,3 +16,5 @@ legend,
 .skip:focus { top: 0; }
 
 .width {padding:0 1.6rem;} 
+
+.anchor {display: block; height:5.2rem; margin-top: -5.2rem; visibility: hidden;}
