@@ -53,11 +53,11 @@ header {position: relative; height:5.2rem;}
 .sell-inner .top a {line-height:1.8rem; font-size: 1.3rem; font-weight: 500; color: #616161;}
 
 .sell-list {margin-top:1.5rem;}
-.sell-list li {width:calc(50% - 1rem); float:left; margin-bottom: 1.5rem;}
-.sell-list li:nth-child(2n){margin-left:2rem;}
+.sell-list li {width:calc(50% - .75rem); float:left; margin-bottom: 1.5rem;}
+.sell-list li:nth-child(2n){margin-left:1.5rem;}
 .sell-list li:last-child{margin-bottom: 0;}
 .sell-list li a {display:block;}
-.sell-list figure img {width:100%; height: 10.5rem; border-radius: .4rem; object-fit: cover;}
+.sell-list figure img {width:100%; height: 12rem; border-radius: .4rem; object-fit: cover;}
 .sell-list figure h3 {margin:.8rem 0 .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 400; display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .sell-list figure strong {line-height: 2rem; font-size: 1.4rem; font-weight: 600;}
 
