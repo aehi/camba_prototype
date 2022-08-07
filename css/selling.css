@@ -38,7 +38,7 @@ header {position: relative; height:5.2rem;}
 /* 판매해요 유저 */
 .profile {}
 .profile a {display: block; padding: 1rem 0; width:100%; border-top: 1px solid #E0E0E0; }
-.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
+.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-top: .2rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
 .profile .right {float:left;}
 .profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .level {line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
