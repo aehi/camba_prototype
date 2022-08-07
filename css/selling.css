@@ -37,13 +37,13 @@ header {position: relative; height:5.2rem;}
 
 /* 판매해요 유저 */
 .profile {}
-.profile a {display: block; padding: 1rem 0; width:100%; border-top: 1px solid #E0E0E0; }
-.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-top: .2rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
-.profile .right {float:left;}
-.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
+.profile a {position: relative; display: block; width:100%; height:6rem; border-top: 1px solid #E0E0E0; box-sizing: border-box;}
+.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-top: 1.2rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
+.profile .right {margin-top:1rem; float:left;}
+.profile .user-name { display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .level {line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
 .profile .level > span {color:#1F1F1F;}
-
+.profile a:after {content: ""; display: block; position: absolute; right:.4rem; top:50%; width:.8rem; height: .8rem; border-top:.2rem solid #757575; border-right:.2rem solid #757575; transform: translate(0, -50%) rotate(45deg) ;}
 
 /* 다른 판매 상품, 인기상품 */
 .sell-wrap { padding-bottom:2rem; }
