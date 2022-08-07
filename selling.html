@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/selling.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/selling.js"></script>
+    <title>판매해요</title>
+</head>
+<body>
+    <header>
+        <div class="header-gnb">
+            <div class="left">
+                <button class="btn-back" onClick="history.go(-1)"><span class="hide">뒤로 가기</span></button>
+                <a href="index.html" class="btn-home"><span class="hide">홈</span></a>
+            </div>
+            <button class="btn-more"><span class="hide">더보기</span></button>
+        </div>
+    </header>
+
+    <main>
+        <article class="sell-post">
+            <h2 class="hide">판매해요 글</h2>
+    
+            <div class="swiper sell-slide">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <img src="image/@thumb_sell01.png" alt="캠핑버너">
+                    </li>
+                    <li class="swiper-slide">
+                        <img src="image/@thumb_sell01.png" alt="캠핑버너">
+                    </li>
+                    <li class="swiper-slide">
+                        <img src="image/@thumb_sell01.png" alt="캠핑버너">
+                    </li>
+                </ul>  <!-- // swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+            </div> <!-- // swiper  -->
+            <div class="txt-area width">
+                <h3>와일드그릴 캠핑 버너</h3>
+                <strong>45,000원</strong>
+                <i class="place">캠핑에바나나</i>
+                <em class="date">3분 전</em>
+                <p>
+                    2회 사용했어요. <br>
+                    상태 좋아요. <br>
+                    전기없는 곳에서 쓰기 편해요.
+                </p>
+                <span>조회 0</span>
+            </div> 
+        </article> <!-- // sell-post  -->
+    
+        <div class="profile width">
+            <a href="" class="clear">
+                <span class="user-thumb"></span>
+                <div class="right">
+                    <em class="level">Lv.<span>1</span></em>
+                    <p class="user-name">용인캠퍼</p>
+                </div>
+            </a> 
+        </div> <!-- // profile -->
+        
+        <section class="sell-wrap width clear">
+            <div class="sell-inner">
+                <div class="top">
+                    <h2>캠퍼님의 판매 상품</h2>
+                    <a href="">더보기</a>
+                </div>
+                <ul class="sell-list">
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd02.png" alt="장작">
+                                <figcaption>
+                                    <h3>남은 장작 판매해요</h3>
+                                    <strong>10,000원</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd03.png" alt="과자">
+                                <figcaption>
+                                    <h3>과자5봉지 가져가실 분</h3>
+                                    <strong>무료나눔</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd04.png" alt="노트북">
+                                <figcaption>
+                                    <h3 class="ellipsis">5월 25일 1박 양도합니다. 원하시는분 쳇 주세요.</h3>
+                                    <strong>40,000원</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul> <!-- // sell-list -->
+            </div> <!-- // sell-inner -->
+        </section> <!-- // sell-wrap -->
+    
+        <section class="sell-wrap width clear">
+            <div class="sell-inner">
+                <h2>캠핑에바나나에 올라온 인기 상품 </h2>
+                <ul class="sell-list">
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd02.png" alt="장작">
+                                <figcaption>
+                                    <h3>남은 장작 판매해요</h3>
+                                    <strong>10,000원</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd03.png" alt="과자">
+                                <figcaption>
+                                    <h3>과자5봉지 가져가실 분</h3>
+                                    <strong>무료나눔</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="image/@thumb_pd04.png" alt="노트북">
+                                <figcaption>
+                                    <h3>5월 25일 1박 양도합니다. 원하시는분 쳇 주세요.</h3>
+                                    <strong>40,000원</strong>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul> <!-- // sell-list -->
+            </div> <!-- // sell-inner -->
+        </section> <!-- // sell-wrap -->
+
+    </main>
+
+    <div class="chat-bar">
+        <a href="" class="btn-chat">채팅하기</a>
+    </div>
+</body>
+</html>

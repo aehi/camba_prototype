@@ -1,0 +1,69 @@
+/* header gnb */
+
+header {position: relative; height:5.2rem;}
+.header-gnb {position:fixed; top:0; left:0; right:0; display:flex; justify-content: space-between; padding: 1.4rem 1.4rem 1.4rem 1.6rem; z-index: 100;}
+.header-gnb button, 
+.header-gnb a {display:inline-block; width: 2.4rem; height:2.4rem; background: url(../image/ico_back_white.svg) no-repeat center / 2rem auto ;}
+.header-gnb .btn-home {margin-left: 1.6rem; background-image: url(../image/ico_home_white.svg); background-size: auto 1.95rem;}
+.header-gnb .btn-more {background-image: url(../image/ico_more_white.svg); background-size: auto 1.5rem;}
+
+.header-gnb.fixed {background-color: #FFF; border-bottom: 1px solid #E0E0E0;}
+.header-gnb.fixed .btn-back {background-image: url(../image/ico_back.svg);} 
+.header-gnb.fixed .btn-home {background-image: url(../image/ico_quick1_on.svg);}
+.header-gnb.fixed .btn-more {background-image: url(../image/ico_more.svg);} 
+
+
+/* 판매해요 사진 */
+.sell-post {margin-top: -5.2rem;}
+.swiper-slide:before {content: ""; display: block; position: absolute; left:0; right:0; top:0; width:100%; height: 100%; background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 90.56%, rgba(0, 0, 0, 0.5) 100%);}
+.swiper-slide {width:100vW; height: 36rem;}
+.swiper-slide img {width:100%;}
+
+.swiper-pagination-bullets.swiper-pagination {bottom:1.7rem;}
+.swiper-pagination .swiper-pagination-bullet {margin: 0 .6rem; opacity: .5; background-color: #FFF;}
+.swiper-pagination .swiper-pagination-bullet-active {width: .8rem; opacity: 1; border-radius: .8rem;}
+
+
+/* 판매해요 text area */
+.txt-area {padding-top:2rem; padding-bottom:2rem;}
+.txt-area h3 {line-height: 2.2rem; font-size: 1.6rem;}
+.txt-area strong {display:block; margin: .5rem 0 1rem; line-height: 2.5rem; font-size: 1.8rem;}
+.txt-area p {margin: 2rem 0 3rem;}
+.txt-area .date,
+.txt-area .place,
+.txt-area > span {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
+.txt-area .date:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem .3rem .3rem .2rem; border-radius: 100%; background-color: #757575;}
+
+
+/* 판매해요 유저 */
+.profile {}
+.profile a {display: block; padding: 1rem 0; width:100%; border-top: 1px solid #E0E0E0; }
+.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
+.profile .right {float:left;}
+.profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
+.profile .level {line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
+.profile .level > span {color:#1F1F1F;}
+
+
+/* 다른 판매 상품, 인기상품 */
+.sell-wrap { padding-bottom:2rem; }
+.sell-inner {padding-top:2rem; border-top: 1px solid #E0E0E0;}
+.sell-inner .top {display: flex; justify-content: space-between;}
+.sell-inner h2 {line-height:2.1rem; font-size: 1.5rem;}
+.sell-inner .top a {line-height:1.8rem; font-size: 1.3rem; font-weight: 500; color: #616161;}
+
+.sell-list {margin-top:1.5rem;}
+.sell-list li {width:calc(50% - 1rem); float:left; margin-bottom: 1.5rem;}
+.sell-list li:nth-child(2n){margin-left:2rem;}
+.sell-list li:last-child{margin-bottom: 0;}
+.sell-list li a {display:block;}
+.sell-list figure img {width:100%; height: 10.5rem; border-radius: .4rem; object-fit: cover;}
+.sell-list figure h3 {margin:1rem 0 .5rem; line-height: 1.7rem; font-size: 1.2rem; font-weight: 400;}
+.sell-list figure strong {line-height: 1.7rem; font-size: 1.2rem; font-weight: 600;}
+.ellipsis { display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+.sell-wrap:last-child {margin-bottom: 7.8rem;}
+
+/* 채팅하기 버튼 */
+.chat-bar {position:fixed; left:0; right:0; bottom:0; padding:1.1rem 1.6rem; background-color: #FFF;}
+.chat-bar .btn-chat {display:block; width: 100%; line-height: 4.8rem; text-align:center; color:#FFF; background-color:#0A3CD2; border-radius: .8rem;}
