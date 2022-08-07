@@ -1,3 +1,5 @@
+/* header gnb */
+
 header {position: relative; height:5.2rem;}
 .header-gnb {position:fixed; top:0; left:0; right:0; display:flex; justify-content: space-between; padding: 1.4rem 1.4rem 1.4rem 1.6rem; background-color: #FFF;}
 .header-gnb.fixed {border-bottom: 1px solid #E0E0E0;}
@@ -5,13 +7,15 @@ header {position: relative; height:5.2rem;}
 .header-gnb button {width: 2.4rem; height:2.4rem; background: url(../image/ico_back.svg) no-repeat center / 2rem auto ; }
 .header-gnb .btn-more {background-image: url(../image/ico_more.svg); background-size: auto 1.5rem;}
 
+
+/* 커뮤니티 글 */
 .cm-post {padding:1rem 1.6rem; background-color:#FFF;}
 .profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
 .profile .right {float:left;}
 .profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .date,
 .profile .place {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
-.profile .place:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem; border-radius: 100%; background-color: #757575;} 
+.profile .date:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem .3rem .3rem .2rem; border-radius: 100%; background-color: #757575;} 
 
 .content .txt-area {margin-top:1rem; font-size: 1.5rem; line-height:2.1rem;}
 .content .img-area {height: 22rem; margin-top:1rem;}
@@ -24,7 +28,8 @@ header {position: relative; height:5.2rem;}
 .cm-post .foot .comment:before {content: ""; display: inline-block; width:2rem; height:2rem; background: url(../image/ico_comment.svg) no-repeat center / 1.667rem auto; vertical-align: -.6rem; }
 .cm-post .foot .like.on:before {background-image: url(../image/ico_likeFilled.svg);}
 
-/* comment */
+
+/* 커뮤니티 댓글 */
 .comment-wrap {padding:0 1.6rem; }
 .comment-list {padding-top:1.5rem; border-top: 1px solid #E0E0E0;}
 .comment-list li {margin-top: 2rem;}
@@ -47,7 +52,7 @@ header {position: relative; height:5.2rem;}
 .comment-list > li:last-child {margin-bottom: 11.2rem;}
 
 
-/* comment list 02 ~ */
+/* 댓글 리스트 02 ~ */
 .comment-list li.reply {margin-top: 1.5rem; padding-left: 4.5rem;}
 .comment-list li.reply .content {padding-left: 4.5rem;}
 .comment-list li.reply .user-thumb { width:2.8rem; height:2.8rem;}
@@ -59,7 +64,7 @@ header {position: relative; height:5.2rem;}
 {background-image: url(../image/@thumb_user04.png);}
 
 
-/* comment-bar */
+/* 댓글입력바 */
 .comment-bar {position:fixed; left:0; right:0; bottom:0; padding:.9rem 1.6rem 1rem; text-align:center; background-color: #FFF; border-top: 1px solid #E0E0E0;}
 .comment-textarea {display:flex; justify-content: space-between; align-items: center;}
 .comment-textarea .btn-file {display:inline-block; width: 2.4rem; height:2.4rem; background: url(../image/ico_file.svg) no-repeat center / 1.9rem auto ; }
