@@ -17,11 +17,11 @@ header {position: relative; height:5.2rem;}
 .sell-post {margin-top: -5.2rem;}
 .swiper-slide:before {content: ""; display: block; position: absolute; left:0; right:0; top:0; width:100%; height: 100%; background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 90.56%, rgba(0, 0, 0, 0.5) 100%);}
 .swiper-slide {width:100vW; height: 36rem;}
-.swiper-slide img {width:100%;}
+.swiper-slide img {width:100%; object-fit: cover;}
 
 .swiper-pagination-bullets.swiper-pagination {bottom:1.7rem;}
-.swiper-pagination .swiper-pagination-bullet {margin: 0 .6rem; opacity: .5; background-color: #FFF;}
-.swiper-pagination .swiper-pagination-bullet-active {width: .8rem; opacity: 1; border-radius: .8rem;}
+.swiper-pagination .swiper-pagination-bullet {margin: 0 .6rem!important; opacity: .5; background-color: #FFF;}
+.swiper-pagination .swiper-pagination-bullet-active {opacity: 1; border-radius: .8rem;}
 
 
 /* 판매해요 text area */
@@ -63,6 +63,7 @@ header {position: relative; height:5.2rem;}
 
 
 .sell-wrap:last-child {margin-bottom: 7.8rem;}
+
 
 /* 채팅하기 버튼 */
 .chat-bar {position:fixed; left:0; right:0; bottom:0; padding:1.1rem 1.6rem; background-color: #FFF;}
