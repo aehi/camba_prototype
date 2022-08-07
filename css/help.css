@@ -1,0 +1,68 @@
+/* header gnb */
+
+header {position: relative; height:5.2rem;}
+.header-gnb {position:fixed; top:0; left:0; right:0; display:flex; justify-content: space-between; padding: 1.4rem 1.4rem 1.4rem 1.6rem; z-index: 100; background-color: #FFF;}
+.header-gnb button, 
+.header-gnb a {display:inline-block; width: 2.4rem; height:2.4rem; background: url(../image/ico_back.svg) no-repeat center / 2rem auto ;}
+.header-gnb .btn-home {margin-left: 1.6rem; background-image: url(../image/ico_quick1_on.svg); background-size: auto 1.95rem;}
+.header-gnb .btn-more {background-image: url(../image/ico_more.svg); background-size: auto 1.5rem;}
+
+.header-gnb.fixed {border-bottom: 1px solid #E0E0E0;}
+
+
+/* 도와줘요 글 */
+.help-post {padding-top:1.5rem; padding-bottom:2rem;}
+.help-post .top {padding-bottom:1.5rem; border-bottom: 1px solid #E0E0E0;}
+.help-post .top h2 {margin-bottom:.8rem; line-height: 2.2rem; font-size: 1.6rem;}
+.help-post .top strong {line-height: 2.5rem; font-size: 1.8rem;}
+.help-post .top .date {float:right; line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
+.content .info { padding:1.5rem 0; border-bottom: 1px solid #E0E0E0;}
+.info i {display:block; line-height: 1.8rem; font-size: 1.3rem;}
+.info i:before {content: ""; display:inline-block; width:2rem; height:2rem; background: url(../image/ico_location.svg) no-repeat center/ auto 1.717rem; vertical-align: -.5rem;}
+.info .when {margin:1rem 0;}
+.info .place:before {background-image: url(../image/ico_calendar.svg);}
+.info .time:before {background-image: url(../image/ico_hourglass.svg);}
+.txt-area {margin: 1.5rem 0;}
+.img-area {height: 22rem; margin-bottom:3rem; }
+.img-area li { float:left; display:inline-block; width:calc(50% - .15rem); height: 22rem; border-radius: .6rem 0 0 .6rem; background: url(../image/@thumb_help01.png) no-repeat center / cover;}
+.img-area li:nth-child(2) { height:10.85rem; background-image: url(../image/@thumb_help02.png); border-radius: 0 .6rem 0 0; margin-left:.3rem;}
+.img-area li:nth-child(3) { height:10.85rem;  background-image: url(../image/@thumb_help03.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
+.count {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
+
+/* 판매해요 유저 */
+.profile {}
+.profile a {position: relative; display: block; width:100%; height:6rem; border-top: 1px solid #E0E0E0; box-sizing: border-box;}
+.profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-top: 1.2rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
+.profile .right {margin-top:1rem; float:left;}
+.profile .user-name { display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
+.profile .level {line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
+.profile .level > span {color:#1F1F1F;}
+.profile a:after {content: ""; display: block; position: absolute; right:.4rem; top:50%; width:.8rem; height: .8rem; border-top:.2rem solid #757575; border-right:.2rem solid #757575; transform: translate(0, -50%) rotate(45deg) ;}
+
+
+/* 캠핑장내 다른 요청 */
+.help-wrap { padding-bottom:2rem; }
+.help-inner {padding-top:2rem; border-top: 1px solid #E0E0E0;}
+.help-inner .top {display: flex; justify-content: space-between;}
+.help-inner h2 {line-height:2.1rem; font-size: 1.5rem;}
+.help-inner .top a {line-height:1.8rem; font-size: 1.3rem; font-weight: 500; color: #616161;}
+
+.help-list {margin-top:1.5rem;}
+.help-list li {width:calc(50% - .75rem); float:left; margin-bottom: 1.5rem;}
+.help-list li:nth-child(2n){margin-left:1.5rem;}
+.help-list li:last-child{margin-bottom: 0;}
+.help-list li a {display:block;}
+.help-list .img-wrap {width:100%; height: 12rem; border-radius: .4rem; overflow: hidden;}
+.help-list .img-wrap img {width:100%; height:100%; object-fit: cover;}
+.help-list .img-wrap.no-img {position: relative; border: 1px solid #E0E0E0; box-sizing: border-box;}
+.help-list .img-wrap.no-img img {position: absolute; top:50%; left:50%; width: 8.5rem; transform: translate(-50%, -50%); object-fit: contain;}
+
+.help-list em {display:block; margin-top:.8rem; line-height: 1.7rem; font-size: 1.2rem;}
+.help-list figure em.now {color:#E72D2D;}
+.help-list h3 {margin:.2rem 0; line-height: 2rem; font-size: 1.4rem; font-weight: 400; display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.help-list strong {line-height: 2rem; font-size: 1.4rem; font-weight: 600;}
+
+
+.help-wrap:last-child {margin-bottom: 7.8rem;}
+
+
