@@ -31,7 +31,7 @@ header {position: relative; height:5.2rem;}
 .txt-area p {margin: 2rem 0 3rem;}
 .txt-area .date,
 .txt-area .place,
-.txt-area > span {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
+.txt-area .count {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
 .txt-area .date:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem .3rem .3rem .2rem; border-radius: 100%; background-color: #757575;}
 
 
@@ -45,6 +45,7 @@ header {position: relative; height:5.2rem;}
 .profile .level > span {color:#1F1F1F;}
 .profile a:after {content: ""; display: block; position: absolute; right:.4rem; top:50%; width:.8rem; height: .8rem; border-top:.2rem solid #757575; border-right:.2rem solid #757575; transform: translate(0, -50%) rotate(45deg) ;}
 
+
 /* 다른 판매 상품, 인기상품 */
 .sell-wrap { padding-bottom:2rem; }
 .sell-inner {padding-top:2rem; border-top: 1px solid #E0E0E0;}
@@ -57,7 +58,8 @@ header {position: relative; height:5.2rem;}
 .sell-list li:nth-child(2n){margin-left:1.5rem;}
 .sell-list li:last-child{margin-bottom: 0;}
 .sell-list li a {display:block;}
-.sell-list figure img {width:100%; height: 12rem; border-radius: .4rem; object-fit: cover;}
+.sell-list .img-wrap {width:100%; height: 12rem; border-radius: .4rem; overflow: hidden;}
+.sell-list .img-wrap img {width:100%; height:100%; object-fit: cover;}
 .sell-list figure h3 {margin:.8rem 0 .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 400; display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .sell-list figure strong {line-height: 2rem; font-size: 1.4rem; font-weight: 600;}
 
@@ -65,6 +67,3 @@ header {position: relative; height:5.2rem;}
 .sell-wrap:last-child {margin-bottom: 7.8rem;}
 
 
-/* 채팅하기 버튼 */
-.chat-bar {position:fixed; left:0; right:0; bottom:0; padding:1.1rem 1.6rem; background-color: #FFF;}
-.chat-bar .btn-chat {display:block; width: 100%; line-height: 4.8rem; text-align:center; color:#FFF; background-color:#0A3CD2; border-radius: .8rem;}
