@@ -18,7 +18,7 @@ header {position: relative; height:5.2rem;}
 .help-post .top .date {float:right; line-height: 1.7rem; font-size: 1.2rem; color:#757575;}
 .content .info { padding:1.5rem 0; border-bottom: 1px solid #E0E0E0;}
 .info i {display:block; line-height: 1.8rem; font-size: 1.3rem;}
-.info i:before {content: ""; display:inline-block; width:2rem; height:2rem; background: url(../image/ico_location.svg) no-repeat center/ auto 1.717rem; vertical-align: -.5rem;}
+.info i:before {content: ""; display:inline-block; margin-right:.5rem; width:2rem; height:2rem; background: url(../image/ico_location.svg) no-repeat center/ auto 1.717rem; vertical-align: -.5rem;}
 .info .when {margin:1rem 0;}
 .info .place:before {background-image: url(../image/ico_calendar.svg);}
 .info .time:before {background-image: url(../image/ico_hourglass.svg);}
@@ -47,7 +47,7 @@ header {position: relative; height:5.2rem;}
 .help-inner h2 {line-height:2.1rem; font-size: 1.5rem;}
 .help-inner .top a {line-height:1.8rem; font-size: 1.3rem; font-weight: 500; color: #616161;}
 
-.help-list {margin-top:1.5rem;}
+.help-list {margin-top:2rem;}
 .help-list li {width:calc(50% - .75rem); float:left; margin-bottom: 1.5rem;}
 .help-list li:nth-child(2n){margin-left:1.5rem;}
 .help-list li:last-child{margin-bottom: 0;}
@@ -57,7 +57,7 @@ header {position: relative; height:5.2rem;}
 .help-list .img-wrap.no-img {position: relative; border: 1px solid #E0E0E0; box-sizing: border-box;}
 .help-list .img-wrap.no-img img {position: absolute; top:50%; left:50%; width: 8.5rem; transform: translate(-50%, -50%); object-fit: contain;}
 
-.help-list em {display:block; margin-top:.8rem; line-height: 1.7rem; font-size: 1.2rem;}
+.help-list em {display:block; margin-top:.8rem; line-height: 1.7rem; font-size: 1.2rem; color:#0A3CD2;}
 .help-list figure em.now {color:#E72D2D;}
 .help-list h3 {margin:.2rem 0; line-height: 2rem; font-size: 1.4rem; font-weight: 400; display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .help-list strong {line-height: 2rem; font-size: 1.4rem; font-weight: 600;}

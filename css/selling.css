@@ -53,7 +53,7 @@ header {position: relative; height:5.2rem;}
 .sell-inner h2 {line-height:2.1rem; font-size: 1.5rem;}
 .sell-inner .top a {line-height:1.8rem; font-size: 1.3rem; font-weight: 500; color: #616161;}
 
-.sell-list {margin-top:1.5rem;}
+.sell-list {margin-top:2rem;}
 .sell-list li {width:calc(50% - .75rem); float:left; margin-bottom: 1.5rem;}
 .sell-list li:nth-child(2n){margin-left:1.5rem;}
 .sell-list li:last-child{margin-bottom: 0;}

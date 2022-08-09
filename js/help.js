@@ -1,5 +1,5 @@
 $(function(){
-    /* 메뉴 fixed */
+        /* 메뉴 fixed */
     var hd = $('.header-gnb'),
     win = $(window);
 
@@ -12,10 +12,4 @@ $(function(){
             hd.removeClass('fixed');
         };
     })
-    var swiper = new Swiper(".sell-slide", {
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-    });
 });
