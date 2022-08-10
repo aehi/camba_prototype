@@ -15,7 +15,7 @@ header {position: relative; height:5.2rem;}
 .profile .user-name {display: block; line-height: 1.8rem; font-size: 1.3rem; font-weight:500;}
 .profile .date,
 .profile .place {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
-.profile .date:before {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem .3rem .3rem .2rem; border-radius: 100%; background-color: #757575;} 
+.profile .place:after {content: ""; display:inline-block; width: .2rem; height: .2rem; margin:.3rem 0rem .3rem .5rem; border-radius: 100%; background-color: #757575;} 
 
 .content .txt-area {margin-top:1rem; font-size: 1.5rem; line-height:2.1rem;}
 .content .img-area {height: 22rem; margin-top:1rem;}
