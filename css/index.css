@@ -96,8 +96,8 @@ section > ul > li:last-child a {border: none;}
 
 /* 글쓰기 버튼 */
 
-.layer-dim {display: none; position: fixed; right:0; left: 0px; top: 0px; bottom:0; background: rgba(0, 0, 0, 0.6); z-index:120;}
-.floating-area {position: fixed; right:1.6rem; bottom:7.5rem; z-index:140;}
+.layer-dim {display: none; position: fixed; right:0; left: 0px; top: 0px; bottom:0; background: rgba(0, 0, 0, 0.6); z-index:200;}
+.floating-area {position: fixed; right:1.6rem; bottom:7.5rem; z-index:300;}
 .floating-menu {display: none;}
 .floating-menu strong {display: inline-block; margin-right: .8rem; vertical-align: middle; font-size: 1.4rem; font-weight: 600; color: #fff;}
 .floating-menu li a {position:relative; display: inline-block; margin-bottom:1rem; width:5.6rem; height: 5.6rem; background-color: #FFF; border-radius: 100%;}
@@ -109,6 +109,7 @@ section > ul > li:last-child a {border: none;}
 .btn-floating-menu:before {position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); content: ""; width: 2.2rem; height: .2rem; background-color: #fff; border-radius: .2rem;}
 .btn-floating-menu:after {position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); content: ""; width: .2rem; height: 2.2rem; background-color: #fff; border-radius: .2rem;}
 
+body.no-scroll {overflow: hidden;}
 .floating-wrap.on .layer-dim, 
 .floating-wrap.on .floating-menu {display: block;}
 .floating-wrap.on .btn-floating-menu {box-shadow: none; transform: rotate(45deg); transition: .3s;}

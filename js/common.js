@@ -19,9 +19,10 @@ $(function(){
     });
 
     /* 글쓰기 버튼 */
-    $('.btn-floating-menu').click(function(){
+    $('.btn-floating-menu, .layer-dim').click(function(){
         
         $('.floating-wrap').toggleClass('on');
+        $('body').toggleClass('no-scroll');
 
         if ($('.floating-wrap').hasClass('on')){
             $(this).attr('aria-label','닫기');
