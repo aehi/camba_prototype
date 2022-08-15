@@ -20,10 +20,7 @@ $(function(){
 
     /* 글쓰기 버튼 */
     $('.btn-floating-menu').click(function(){
-        $(this).next().show();
-    });
-    $('.floating-menu .btn-close').click(function(){
-        $(this).parents('.floating-menu').hide();
+        $('.floating-wrap').toggleClass('on');
     });
 
     /* 하단메뉴 */
