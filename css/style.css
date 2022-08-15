@@ -1,7 +1,13 @@
+@font-face {
+	font-family:"Spoqa Han Sans Neo";
+    font-weight: 400;
+	src:url(../font/SpoqaHanSansNeo-Regular.woff) format("woff");
+}
+
 /* Style */
 html { font-size: 10px;}
 body { overflow-x:hidden; font-size: 1rem;  color:#1F1F1F;}
-body.hidden { position: fixed; overflow-y:hidden;  touch-action: none;}
+body.hidden { overflow-y:hidden; touch-action: none;}
 body{-webkit-tap-highlight-color:transparent;}
 main { font-size: 1.5rem; line-height:2.1rem; display: block;}
 a, button { font-family: 'Spoqa Han Sans Neo'; font-size: 1.5rem; line-height:2.1rem; color:#1F1F1F; background-color: transparent;}
