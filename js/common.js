@@ -20,7 +20,14 @@ $(function(){
 
     /* 글쓰기 버튼 */
     $('.btn-floating-menu').click(function(){
+        
         $('.floating-wrap').toggleClass('on');
+
+        if ($('.floating-wrap').hasClass('on')){
+            $(this).attr('aria-label','닫기');
+        }else{
+            $(this).attr('aria-label','글 쓰기');
+        }
     });
 
     /* 하단메뉴 */
