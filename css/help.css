@@ -29,7 +29,7 @@ header {position: relative; height:5.2rem;}
 .img-area li:nth-child(3) { height:10.85rem;  background-image: url(../image/@thumb_help03.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 .count {line-height: 1.7rem; font-size: 1.2rem; color:#757575;} 
 
-/* 판매해요 유저 */
+/* 유저 */
 .profile {}
 .profile a {position: relative; display: block; width:100%; height:6rem; border-top: 1px solid #E0E0E0; box-sizing: border-box;}
 .profile .user-thumb { float:left; width:3.5rem; height:3.5rem; margin-top: 1.2rem; margin-right: 1rem; background: url(../image/@thumb_user01.png) no-repeat center / contain; }
@@ -52,7 +52,7 @@ header {position: relative; height:5.2rem;}
 .help-list li:nth-child(2n){margin-left:1.5rem;}
 .help-list li:last-child{margin-bottom: 0;}
 .help-list li a {display:block;}
-.help-list .img-wrap {width:100%; height: 12rem; border-radius: .4rem; overflow: hidden;}
+.help-list .img-wrap {width:100%; height: 12rem; border-radius: .6rem; overflow: hidden;}
 .help-list .img-wrap img {width:100%; height:100%; object-fit: cover;}
 .help-list .img-wrap.no-img {position: relative; border: 1px solid #E0E0E0; box-sizing: border-box;}
 .help-list .img-wrap.no-img img {position: absolute; top:50%; left:50%; width: 8.5rem; transform: translate(-50%, -50%); object-fit: contain;}
