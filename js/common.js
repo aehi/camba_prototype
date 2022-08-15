@@ -22,7 +22,7 @@ $(function(){
     $('.btn-floating-menu, .layer-dim').click(function(){
         
         $('.floating-wrap').toggleClass('on');
-        $('body').toggleClass('no-scroll');
+        $('body').toggleClass('hidden');
 
         if ($('.floating-wrap').hasClass('on')){
             $(this).attr('aria-label','닫기');
