@@ -60,7 +60,7 @@ header {position: relative; height:5.2rem;}
 .help-list em {display:block; margin-top:.8rem; line-height: 1.7rem; font-size: 1.2rem; color:#0A3CD2;}
 .help-list figure em.now {color:#E72D2D;}
 .help-list h3 {margin:.2rem 0; line-height: 2rem; font-size: 1.4rem; font-weight: 400; display: block; width:100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
-.help-list strong {line-height: 2rem; font-size: 1.4rem; font-weight: 600;}
+.help-list strong {line-height: 2rem; font-size: 1.4rem; font-weight: 700;}
 
 
 .help-wrap:last-child {margin-bottom: 7.8rem;}
