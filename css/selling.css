@@ -26,8 +26,8 @@ header {position: relative; height:5.2rem;}
 
 /* 판매해요 text area */
 .txt-area {padding-top:2rem; padding-bottom:2rem;}
-.txt-area h3 {line-height: 2.2rem; font-size: 1.6rem;}
-.txt-area strong {display:block; margin: .5rem 0 1rem; line-height: 2.5rem; font-size: 1.8rem;}
+.txt-area h2 {line-height: 2.2rem; font-size: 1.6rem;}
+.txt-area strong {display:block; margin: .5rem 0 1rem; line-height: 2.5rem; font-size: 1.8rem; font-weight: 700;}
 .txt-area p {margin: 2rem 0 3rem;}
 .txt-area .date,
 .txt-area .place,

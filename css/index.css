@@ -1,6 +1,6 @@
 header {position:fixed; top:0; left:0; right:0; background-color: #FFF; z-index:100;}
 header .top { display:flex; justify-content: space-between; align-items: center; margin:1.2rem 0 1rem;}
-header .btn-local { line-height: 2.2rem; font-size: 1.6rem; font-weight: 500;}
+header .btn-local { line-height: 2.2rem; font-size: 1.6rem; font-weight: 700;}
 header .btn-local:before { content: ""; display: inline-block; width:2rem; height:2rem; margin-right: .3rem; background: url(../image/ico_pinFilled.svg) no-repeat center / 1.375rem auto; vertical-align: -.5rem;}
 header .btn-alram { display:block; width:2.4rem; height:2.4rem; background: url(../image/ico_bell2.svg) no-repeat center / 1.98rem auto;}
 
@@ -10,7 +10,7 @@ header .btn-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 .tab ul { display: flex; height:3.5rem; }
 .tab li { flex:1; }
 .tab li a { display:block; line-height:3.4rem; font-size:1.4rem; text-align: center; color: #9E9E9E; }
-.tab li.active a { font-weight:500; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
+.tab li.active a { font-weight:700; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
 .content-body {position:relative; margin-top: 8.2rem;}
@@ -63,7 +63,7 @@ section > ul > li:last-child a {border: none;}
 .community-list > li:nth-child(6) .img-area li:nth-child(3) { background-image: url(../image/@thumb_con09.png); margin-top:.3rem; border-radius: 0 0 0 .6rem;}
 .community-list > li:nth-child(6) .img-area li:nth-child(4) { position:relative; background-image: url(../image/@thumb_con10.png); margin-left:.3rem; margin-top:.3rem; border-radius: 0 0 .6rem 0;}
 
-.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 500; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 50;}
+.community-list > li:nth-child(6) .img-area li:nth-child(4):before { position:absolute; left:0; right:0; top:0; content: "+6"; text-align: center; width:100%; height:100%; line-height:10.85rem; background-color: rgba(0, 0, 0, 0.4); font-size: 2rem; font-weight: 700; color:#FFF; border-radius: 0 0 .6rem 0; z-index: 50;}
 
 
 /* 판매해요 */
