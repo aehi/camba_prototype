@@ -9,8 +9,8 @@ header .btn-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 .tab { padding: 0 1.6rem; border-bottom: 1px solid #E0E0E0;}
 .tab ul { display: flex; height:3.5rem; }
 .tab li { flex:1; }
-.tab li a { display:block; line-height:3.4rem; font-size:1.4rem; text-align: center; color: #9E9E9E; }
-.tab li.active a { font-weight:700; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
+.tab li a { display:block; line-height:3.4rem; font-size:1.4rem; font-weight:700; text-align: center; color: #9E9E9E; }
+.tab li.active a {color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
 .content-body {position:relative; margin-top: 8.2rem;}
@@ -82,7 +82,7 @@ section > ul > li:last-child a {border: none;}
 #tabContent03 {}
 .help-list > li {position: relative;}
 .help-list > li a {display:block; padding: 2rem 0 1rem; border-bottom: 1px solid #E0E0E0;}
-.help-list h3 {line-height:2.1rem;  font-size: 1.5rem;}
+.help-list h3 {line-height:2.1rem;  font-size: 1.5rem; font-weight: 500;}
 .help-list .info { margin:.8rem 0 .6rem; padding:1rem 1rem; background-color: #F5F5F5; border-radius: .5rem; border: 1px solid #E0E0E0;}
 .help-list .info span {line-height: 2rem; font-size: 1.4rem;}
 .help-list .info .now {color:#E72D2D;}
@@ -99,7 +99,7 @@ section > ul > li:last-child a {border: none;}
 .layer-dim {display: none; position: fixed; right:0; left: 0px; top: 0px; bottom:0; background: rgba(0, 0, 0, 0.6); z-index:200;}
 .floating-area {position: fixed; right:1.6rem; bottom:7.5rem; z-index:300;}
 .floating-menu {display: none;}
-.floating-menu strong {display: inline-block; margin-right: .8rem; vertical-align: middle; font-size: 1.4rem; font-weight: 500; color: #fff;}
+.floating-menu strong {display: inline-block; margin-right: .8rem; vertical-align: middle; font-size: 1.4rem; color: #fff;}
 .floating-menu li a {position:relative; display: inline-block; margin-bottom:1rem; width:5.6rem; height: 5.6rem; background-color: #FFF; border-radius: 100%;}
 .floating-menu li a:after {position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); content: ""; width: 3rem; height: 3rem; background: url(../image/ico_menu1.svg) no-repeat 100%;}
 .floating-menu li:nth-child(2) a:after {background-image: url(../image/ico_menu2.svg);}
