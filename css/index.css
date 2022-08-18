@@ -10,7 +10,7 @@ header .btn-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 .tab ul { display: flex; height:3.5rem; }
 .tab li { flex:1; }
 .tab li a { display:block; line-height:3.4rem; font-size:1.4rem; font-weight:500; text-align: center; color: #9E9E9E; }
-.tab li.active a {font-weight:700; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
+.tab li.active a {color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
 .content-body {position:relative; margin-top: 8.2rem;}
