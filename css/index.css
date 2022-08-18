@@ -73,7 +73,7 @@ section > ul > li:last-child a {border: none;}
 .selling-list .img-area { width: 10rem; height: 10rem;}
 .selling-list .img-area img {width:100%; height:100%; object-fit: cover; border-radius: .6rem;}
 .selling-list .txt-area {width:calc(100% - 11.5rem); margin-left: 1.5rem;}
-.selling-list .txt-area h3 {margin-bottom: .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 500;}
+.selling-list .txt-area h3 {margin-bottom: .2rem; line-height: 2rem; font-size: 1.4rem;}
 .selling-list .txt-area strong { line-height: 2.2rem; font-size: 1.6rem;}
 .selling-list .txt-area .date { position:absolute; right:0; bottom:1.5rem; line-height: 1.7rem; font-size: 1.2rem; color: #757575;}
 
