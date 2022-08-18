@@ -9,8 +9,8 @@ header .btn-alram { display:block; width:2.4rem; height:2.4rem; background: url(
 .tab { padding: 0 1.6rem; border-bottom: 1px solid #E0E0E0;}
 .tab ul { display: flex; height:3.5rem; }
 .tab li { flex:1; }
-.tab li a { display:block; line-height:3.4rem; font-size:1.4rem; font-weight:700; text-align: center; color: #9E9E9E; }
-.tab li.active a {color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
+.tab li a { display:block; line-height:3.4rem; font-size:1.4rem; font-weight:500; text-align: center; color: #9E9E9E; }
+.tab li.active a {font-weight:700; color:#1F1F1F; border-bottom: 2px solid #1F1F1F;}
 
 
 .content-body {position:relative; margin-top: 8.2rem;}
@@ -73,7 +73,7 @@ section > ul > li:last-child a {border: none;}
 .selling-list .img-area { width: 10rem; height: 10rem;}
 .selling-list .img-area img {width:100%; height:100%; object-fit: cover; border-radius: .6rem;}
 .selling-list .txt-area {width:calc(100% - 11.5rem); margin-left: 1.5rem;}
-.selling-list .txt-area h3 {margin-bottom: .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 400;}
+.selling-list .txt-area h3 {margin-bottom: .2rem; line-height: 2rem; font-size: 1.4rem; font-weight: 500;}
 .selling-list .txt-area strong { line-height: 2.2rem; font-size: 1.6rem;}
 .selling-list .txt-area .date { position:absolute; right:0; bottom:1.5rem; line-height: 1.7rem; font-size: 1.2rem; color: #757575;}
 
